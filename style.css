@@ -1,76 +1,40 @@
 .tablet{
-    position: relative;
     display: inline-block;
-    margin: 1%;
+    margin-top: 40px;
+    position: relative;
+}
+.phone{
+    display: inline-block; 
+    position: relative;
+}
+.headphone{
+    display: inline-block;
+    position: relative;
 }
 #container{
     width: 1000px;
     margin: auto;
 }
-.part-1 .tablet p{
+.sale{
     background-color: green;
     font-weight: bold;
     position: absolute;
+    right: 0;
 }
-.part-1 .phone{
-    position: absolute;
-}
-.part-1 .phone p{
+.phone .sale{
     background-color: red;
-    font-weight: bold;
-    position: absolute;
-}
-.part-1 .headphone{
-    position: absolute;
-}
-.part-1 .headphone p{
-    background-color: green;
-    font-weight: bold;
-    position: absolute;
-}
-.part-2 .tablet{
-    margin-top: 40px;
-}
-.part-2 .tablet p{
-    background-color: green;
-    font-weight: bold;
-    position: absolute;
-}
-.part-2 .phone{
-    position: absolute;
-}
-.part-2 .phone p{
-    background-color: red;
-    font-weight: bold;
-    position: absolute;
-}
-.part-2 .headphone{
-    position: absolute;
-}
-.part-2 .headphone p{
-    background-color: green;
-    font-weight: bold;
-    position: absolute;
 }
 .heart{
     position: absolute;
     color: transparent;
     bottom: 25px;
-    right: 150px;
+    right: 50%;
     z-index: 0;
 }
 .heart-2:hover{
     position: absolute;
     color: red;
     bottom: 25px;
-    right: 150px;
+    right: 50%;
     z-index: 1;
-}
-.part-1 .tablet .heart{
-    top: 359px;
-    left: 180px;
-}
-.part-2 .tablet .heart{
-    top: 780px;
-    left: 180px;
 }
